@@ -1,0 +1,71 @@
+.tópicos {
+    background: var(--azul-degrade);
+    text-align: center;
+    color: var(--cor-branco);
+    font-family: "Poppins", sans-serif;
+    padding: 24px 0 24px;
+}
+
+.tópicos__titulo {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+.topicos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.lista__recentes {
+    background-color: var(--cor-laranja);
+    padding: 1em 1.5em;
+    color: var(--cor-branco);
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .tópicos__titulo {
+        font-size: 24px;
+        margin: 0 0 2em 0;
+        font-weight: 200;
+    }
+
+    .lista__recentes {
+        background-color: var(--cor-laranja);
+        padding: 2em 2.5em;
+        color: var(--cor-branco);
+        font-weight: 700;
+        font-size: 24px;
+        text-decoration: none;
+    }
+
+    .tópicos {
+        padding: 3em 2em;
+    }
+
+    .topicos__lista {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+@media screen and (min-width: 1728px) {
+
+    .topicos__lista {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 5em 25em 4.5em;
+    }
+
+    .tópicos__titulo {
+        font-size: 32px;
+        font-weight: 100;
+    }
+}
