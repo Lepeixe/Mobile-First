@@ -1,2 +1,2 @@
 # Mobile-First
-Pagina Responsiva para todos dispositivos
+Pagina "responsiva" para todos dispositivos
